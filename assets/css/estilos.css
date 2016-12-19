@@ -1,0 +1,150 @@
+#contenedor_filtros{
+    display: none;
+
+}
+
+#boton_filtrar{
+    float: right; width: 100px; height: 40px; padding: 7px; margin-bottom: 5px;
+}
+
+#boton_filtrar:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+#container_boton_submit{
+    margin-top: 15px;
+    width: 100%;
+}
+
+#boton_submit{
+    background-color: #f6f6f6;
+    border: none;
+    color: #848484;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #f8f8f8;
+    cursor:pointer;
+    width: 100%;
+}
+
+#boton_submit:hover {
+    border: 1px solid #CCC;
+}
+
+.card-1 {
+    padding: 15px;
+}
+
+.card-1 .contenido:hover{
+    background-color: #f6f6f6;
+}
+
+.card-1 .categoria{
+    width: 30%;
+    text-align: right;
+    display: inline-block;
+}
+
+.card-1 .titulo{
+    color: #75447C;
+    font-size: 12pt;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 70%;
+}
+
+.card-1 .contenido{
+    margin-top: 10px;
+    line-height: 25px;
+    display: inline-block;
+    width: 85%;
+    margin-left: 15px;
+    text-align: justify;
+    min-height: 70px;
+    padding: 10px;
+    background-radius: 3px;
+    border-radius: 3px;
+}
+
+.card-1 .botonera{
+    margin-top: 10px;
+    float:right;
+}
+
+.card-1 .boton{
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: #424242;
+}
+
+.card-1 .boton_social{
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+    cursor: pointer;
+    color: #424242;
+    margin-left: 15px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.card-1 .avatar{
+    width:  64px;
+    height: 64px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+}
+
+.separator{
+   background-color: #F2F2F2;
+   width: 100%;
+   height: 1px;
+    float:left;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.checkbox_categoria{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.card1 .contenedor_avatar{
+    display: inline-block;
+    height: 100%;
+}
+
+.checkbox_general{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    .card-1 .contenedor_avatar{
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .card-1 .avatar {
+        display:block;
+        margin:auto;
+    }
+
+    .card-1 .contenido{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
